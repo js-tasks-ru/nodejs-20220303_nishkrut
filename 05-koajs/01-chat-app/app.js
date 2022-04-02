@@ -28,6 +28,8 @@ router.post('/publish', async (ctx, next) => {
     res(message);
   }
 
+  resolvers.length = 0;
+
   ctx.body = '';
 });
 
